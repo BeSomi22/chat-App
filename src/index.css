@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles for the message area */
+.message-area {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Light mode wallpaper */
+.message-area.light-mode {
+  background-image: url("assets/clear-wallpaper.jpeg");
+}
+
+/* Dark mode wallpaper */
+.message-area.dark-mode {
+  background-image: url("assets/dark-wallpaper.jpeg");
+}
